@@ -1,4 +1,4 @@
-# Hyperspace Blockchain – Genesis README
+# FLOPS Blockchain – Genesis README
 
 ## 🔧 Projektname
 Hyperspace Blockchain
