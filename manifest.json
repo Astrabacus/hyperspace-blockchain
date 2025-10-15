@@ -1,0 +1,52 @@
+{
+  "echo": 26,
+  "title": "Hyperspace Blockchain – FLOPS Genesis",
+  "timestamp": "2025-10-15T22:53:00+02:00",
+  "author": "Daniel Aecherli",
+  "wallet": "Daniel",
+  "mining": {
+    "engine": "FastAPI + Uvicorn",
+    "port": 8080,
+    "status": "active",
+    "blocks": [
+      {
+        "index": 1,
+        "hash": "0007e718661a45ce3e07e8589947eb4464c5ba761030c18a4c7ed418c04e6355",
+        "flops": 33800,
+        "wallet": "Daniel"
+      },
+      {
+        "index": 2,
+        "hash": "000c153c1fd2a2af78ae01f81f23a47a21bd74e6c9df87b72e69c1f760b4be6e",
+        "flops": 55000,
+        "wallet": "Daniel"
+      }
+    ]
+  },
+  "tokenomics": {
+    "token": "FLOPS",
+    "type": "utility",
+    "emission": "mining-based",
+    "usage": [
+      "artefact_unlock",
+      "audit_seal",
+      "cross_chain_bridge"
+    ],
+    "governance": "optional",
+    "max_supply": null
+  },
+  "api": {
+    "base_url": "http://localhost:8080",
+    "endpoints": [
+      "/api/mine",
+      "/api/block/{id}",
+      "/api/wallet/{name}/balance",
+      "/api/transfer"
+    ]
+  },
+  "symbolism": {
+    "flops_meaning": "Floating Point Operations per Symbol",
+    "mining_as_ritual": true,
+    "wallet_as_identity": true
+  }
+}
