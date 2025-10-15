@@ -1,7 +1,7 @@
 # FLOPS Blockchain – Genesis README
 
 ## 🔧 Projektname
-Hyperspace Blockchain
+Ender´s Game
 
 ## 🧱 Ursprung
 Genesis-Knoten gestartet am `localhost:8080`  
