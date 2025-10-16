@@ -1,0 +1,37 @@
+{
+  "registry": [
+    {
+      "gateway_id": "gw-primrose-2025-echo27",
+      "licensee": "Primrose AG",
+      "type": "privat",
+      "flops_used": 840000,
+      "rate_chf": 0.005,
+      "total_value_chf": 4200,
+      "status": "refused",
+      "due_date": "2025-10-20",
+      "audit_log": "audit/flops/gw-primrose-2025-echo27.log"
+    },
+    {
+      "gateway_id": "gw-zrh-2025-echo26",
+      "licensee": "Stadtwerke Zürich",
+      "type": "städtisch",
+      "flops_used": 1200000,
+      "rate_chf": 0.005,
+      "total_value_chf": 6000,
+      "status": "refused",
+      "due_date": "2025-10-05",
+      "audit_log": "audit/flops/gw-zrh-2025-echo26.log"
+    },
+    {
+      "gateway_id": "gw-mars-2025-echo28",
+      "licensee": "MarsHub Collective",
+      "type": "symbolisch",
+      "flops_used": 500000,
+      "rate_chf": 0.005,
+      "total_value_chf": 2500,
+      "status": "pending",
+      "due_date": "2025-11-01",
+      "audit_log": "audit/flops/gw-mars-2025-echo28.log"
+    }
+  ]
+}
